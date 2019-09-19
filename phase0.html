@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>phase0</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+      ol, ul { 
+     list-style-type: none;
+      }
+   </style>
+</head>
+<body>
+	<h1>phase0</h1>
+	<form action="" method="POST">
+		<fieldset>
+			<legend>Clinician Imaging Feedback</legend>
+			<p>Feedback to the radiology department.</p>
+			<p>Accession number:<input type="text" name="accession-id"></p>
+			<p>Did this report advance patient care?</p>
+				<ul>
+					<li><input type="radio" name="advance" value="yes" checked="checked">Yes</li>
+					<li><input type="radio" name="advance" value="no">No</li>
+				</ul>
+			<p>Options</p>
+				<ul>
+					<li><input type="Checkbox" name="options" value="option1" checked="checked">Option 1</li>
+					<li><input type="Checkbox" name="options" value="option2">Option 2</li>
+					<li><input type="Checkbox" name="options" value="option3">Option 3</li>
+				</ul>
+				<li><label>Comments:<textarea name="contest_entry" placeholder="50 words or less" rows="5" cols="50"></textarea> </label></li>
+				<li><label>Email:<input type="email" name="email" placeholder="Please enter"></label></li>
+			
+			<input type="submit" name="Submit">
+		</fieldset>
+	</form>
+
+</body>
+</html>
